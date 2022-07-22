@@ -1,0 +1,277 @@
+.color_header{
+/* background-color: #555353; */
+background-image: linear-gradient(#525252, #3d72b4 );
+color: #fff;
+
+}
+*{
+    font-family: cursive;
+}
+#btn_login{
+    color: #fff;
+    border:1px solid #55af55;
+    margin-right: 20px;
+    background-color: #55af55;
+}
+#btn_login:hover{
+    background-color: #447544;
+}
+#btn_signup{
+    color: #fff;
+    border:1px solid #356da4;
+    margin-right: 50px;
+    background-color: #356da4;
+}
+#btn_signup:hover{
+    background-color: #22476b;
+
+}
+.main{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    /* background-color: #55af55; */
+}
+#_fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+.inner_section{
+   margin: auto;
+   text-align: center;
+   position: relative;
+   top: 20px;
+   /* font-family: inherit; */
+ 
+}
+.head_text{
+    font-size: 20px;
+}
+
+.horizt_line{
+    width: 15%;
+    margin: auto;
+ 
+    background-color: #777777;
+    border: 1px solid #bdbaba;
+}
+#empty_line{
+    position: relative;
+    top: 40px;
+}
+@media screen and (max-width:1200px) {
+    #empty_line{
+        position: relative;
+        top: 10px;
+    }  
+}
+@media screen and (max-width:1200px) {
+    .horizt_line{
+        width: 50%;
+    }  
+}
+.form_sec{
+    width: 500px;
+    height: 55%;
+    /* background-color: #555353; */
+    background-image: linear-gradient(#525252, #3d72b4 );
+    margin: auto;
+    position: relative;
+    padding-top: 10px;
+    top: 100px;
+
+}
+@media screen and (max-width:536px) {
+    .form_sec{
+       width: 300px;
+
+    }  
+}
+.inpt_box{
+    width: 350px;
+    padding: 10px 30px 10px 30px;
+    margin:10px 0px 0px 90px;
+    border: 1px solid #fff;
+    border-radius: 05px;
+}
+@media screen and (max-width:536px) {
+    .inpt_box{
+       width: 250px;
+       margin-left: 20px;
+    }  
+}
+.btn_sub_signup{
+    position: relative;
+    top: 20px;
+    margin-left: 40%;
+    border: 1px solid #356da4;
+    padding: 05px 30px 05px 30px;
+    background-color: #356da4;
+    color: #fff;
+}
+@media screen and (max-width:536px) {
+    .btn_sub_signup{
+     
+       margin-left: 80px;
+    }  
+}
+.btn_sub_signup:hover{
+    background-color: #265b91;
+}
+
+.start_btn_section{
+    width: 450px;
+    height: 200px;
+/* background-color: #555353; */
+ margin: auto;
+ position: relative;
+ top: 80px;
+ padding: 7.2rem;
+  
+}
+.star_quiz{
+    margin: auto;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid #356da4;
+    background-color: #356da4;
+    color: white;
+    
+}
+.get_Start{
+    position: relative;
+    top: 180px;
+    text-align: center;
+color: rgb(97, 91, 91);
+}
+.star_quiz:hover{
+    background-color: #22476b;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    /* background-color:#777777; */
+    background-image: linear-gradient(#525252, #3d72b4 );
+    /* border-radius: 10px; */
+    color: white;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    padding-top: 40px;
+    /* text-align: center; */
+}
+/* @media screen  and (max-width:627px){
+    width: ;
+} */
+.li_one{
+    margin: auto;
+    padding-left: 30px;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+#text_a{
+    /* padding-left: 50px; */
+}
+#question{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.h3_ques{
+    width: 480px;
+    height: 90px;
+    padding-top: 0px;
+    /* margin: auto; */
+    /* background-color: #fff; */
+    color: #fff;
+}
+.next{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 100px;
+    padding: 07px 20px 07px 20px;
+    border: 1px solid #55af55;
+    background-color: #55af55;
+    border-radius: 05px;
+    color: #fff;
+}
+.next:hover{
+    background-color: #3b813b;
+    border: 1px solid #3b813b;
+}
+.pre{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 120px;
+    padding: 07px 20px 07px 20px;
+    text-align: center;
+    border: 1px solid #55af55;
+    background-color: #55af55;
+    border-radius: 05px;
+    color: #fff;
+    display: none;
+}
+.pre:hover{
+    background-color: #3b813b;
+    border: 1px solid #3b813b;
+}
+.radio_btn{
+    background-color: #447544;
+}
+
+.one{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+background-color: #447544;
+margin: auto;
+display: none;
+}
+#submit{
+    display: none;
+    position: relative;
+    top: 60px;
+    width: 480px;
+    padding: 15px 70px 15px 70px;
+    border: 1px solid #55af55;
+    background-color: #55af55;
+    color: white;
+
+}
+#submit:hover{
+    background-color: #356da4 ;
+    border: 1px solid #356da4;
+}
+#showscore{
+    text-align: center;
+    color: #265b91;
+    font-weight: bold;
+    font-family: cursive;
+}
+#try{
+    display: none;
+    margin: auto;
+    margin-left: 48%;
+    width: 150px;
+    padding: 07px 20px 07px 20px;
+    border: 1px solid #55af55;
+    background-color: #55af55;
+    border-radius: 05px;
+    color: #fff;
+}
+#try:hover{
+    background-color: #3b813b;
+    border: 1px solid #3b813b;
+}
+#error_2{
+    margin-left: 90px;
+}
+#error{
+    margin-left: 90px;
+}
+.errors{
+    margin-left: 90px;
+}

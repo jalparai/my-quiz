@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../boostrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>JeenuQuiz</title>
+</head>
+<body>
+
+  <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light  color_header" id="_fixed">
+        <div class="container-fluid">
+          <span class="navbar-brand" style="color: aliceblue;"><h2>JeenuQuiz</h2></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+              </li>
+            </ul>
+            
+                <button class="btn btn-outline-success " id="btn_login" type="submit" onclick="logout()">Logout</button>
+              <!-- <button class="btn btn-outline-success" id="btn_signup" type="submit" onclick="sign()">Signup</button> -->
+           
+          </div>
+        </div>
+      </nav>
+      <!-- header closed -->
+  </div>  
+
+  <div class="container">
+    <div class="h3_ques">
+   <h3 id="question">
+     question here
+   </h3> 
+  </div>  
+<h2 id="one"></h2>
+<ul class="li_one">
+  <li class="li">
+    <input type="radio" name="answer" id="a" class="radio_btn" value="">
+    <label id="text_a"  for="a">question</label>
+  </li>
+    <li class="li">
+    <input type="radio" name="answer" id="b" class="radio_btn" value="" >
+    <label id="text_b"  for="b">question</label>
+    <li class="li">
+    <input type="radio" name="answer" id="c" class="radio_btn" value="" >
+  <label id="text_c"  for="c"> question</label>
+</li>
+  <li class="li">
+    <input type="radio" name="answer" id="d"  class="radio_btn" value=""> 
+    <label id="text_d"  for="d">question</label>
+  </li>
+  </ul>
+
+<div class="next_pre">
+  <button class="pre" id="btn_pre">PREVIOUS</button>
+
+<button class="next" onclick="nextques()" id="btn_next">NEXT</button>
+
+<button onclick="submit()" id="submit">SUBMIT</button>
+</div>
+
+
+<!-- <h1 id="showscore" >
+
+</h1> -->
+
+  </div>
+
+
+<h1 id="showscore" style="margin-top: 120px;">
+
+</h1>
+<button id="try" onclick="letsplyagin">Try Again</button>
+    <script src="../js/quiz.js"></script>
+    <script src="../boostrap/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.form_sec_login{
+    width: 40%;
+    height: 55%;
+    /* background-color: #555353; */
+    margin: auto;
+    position: relative;
+    top: 70px;
+
+}
+@media screen and (max-width:500px) {
+    .form_sec_login{
+     margin-left: 90px;
+     
+    }  
+}
+.inpt_box_login{
+    width: 350px;
+    padding: 10px 30px 10px 30px;
+    margin:20px 0px 0px 90px;
+    border: 1px solid #555353;
+    border-radius: 05px;
+}
+@media screen and (max-width:960px) {
+    .inpt_box_login{
+        width: 250px;
+        margin:20px 0px 0px 0px;
+     
+    }  
+}
+.btn_sub_signup_login{
+    position: relative;
+    top: 20px;
+    margin-left: 40%;
+    border: 1px solid #356da4;
+    padding: 05px 30px 05px 30px;
+    background-color: #356da4;
+    color: #fff;
+    font-size: 20px;
+}
+.btn_sub_signup_login:hover{
+    background-color: #265b91;
+}
